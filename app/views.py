@@ -9,3 +9,8 @@ from app import models
 class LandingPage(View):
     def get(self, request):
         return render(request, "home.html")
+
+
+class MenuPage(View):
+    def get(self, request):
+        return render(request, "menu.html")

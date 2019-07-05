@@ -1,0 +1,22 @@
+{% extends 'base.html' %} {% block body %}
+<nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-primary text-white">
+    <span class="text-white" style="font-size: 16pt">Big Red's BBQ</span>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="ml-3">
+            <ul class="nav navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link text-grey" href=""><span class="text-grey">Events</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-grey" href="{% url 'home' %}"><span class="text-grey">Home</span></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+{% endblock body %}

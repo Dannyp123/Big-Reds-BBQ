@@ -19,5 +19,6 @@ from app import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.LandingPage.as_view(), name="home")
+    path('', views.LandingPage.as_view(), name="home"),
+    path('menu', views.MenuPage.as_view(), name="menu")
 ]

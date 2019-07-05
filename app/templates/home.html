@@ -13,7 +13,7 @@
                     <a class="nav-link text-grey" href=""><span class="text-grey">Events</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-grey" href=""><span class="text-grey">Menu</span></a>
+                    <a class="nav-link text-grey" href="{% url 'menu' %}"><span class="text-grey">Menu</span></a>
                 </li>
             </ul>
         </div>
@@ -88,7 +88,7 @@
             <div class="card mb-5">
                 <span class="card-header text-center">Menu</span>
                 <div class="card-body">
-                    <form class="text-center" action="">
+                    <form class="text-center" action="{% url 'menu' %}">
                         <button class="btn btn-primary mr-3">Check it out</button>
                     </form>
                 </div>
