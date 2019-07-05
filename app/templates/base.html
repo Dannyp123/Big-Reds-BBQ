@@ -10,11 +10,12 @@
 </head>
 
 <style>
+    /* FOR SMALL SCREENS */
     @media only screen and (max-width: 450px) {
         .home-page-img {
             width: 255px;
             margin-left: auto;
-            margin-right: auto;
+            margin-right: auto
 
         }
 
@@ -23,12 +24,18 @@
         }
 
         .location-img {
-            width: 255px;
+            width: 240px;
             margin-left: auto;
             margin-right: auto;
+
+        }
+
+        .adjusted-card {
+            height: 350px;
         }
     }
 
+    /* FOR MEDIUM SCREENS */
     @media only screen and (min-width: 600px) {
         .home-page-img {
             width: 265px;
@@ -45,15 +52,19 @@
             margin-left: auto;
             margin-right: auto;
         }
+
+        .adjusted-card {
+            height: 400px;
+        }
     }
 
+    /* FOR LARGE SCREENS */
     @media only screen and (min-width: 1000px) {
         .home-page-img {
             width: 280px;
             margin-left: auto;
             margin-right: auto;
             margin-top: 1rem;
-            margin-bottom: 1rem;
         }
 
         .flow-text {
@@ -65,6 +76,11 @@
             margin-left: auto;
             margin-right: auto;
             margin-top: 1rem;
+
+        }
+
+        .adjusted-card {
+            height: 425px;
         }
     }
 </style>
