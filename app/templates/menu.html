@@ -23,7 +23,7 @@
 <div class="container">
     <div class="row mt-4">
         <div class="col-sm-12 col-md-12 col-lg-4">
-            <div class="card menu-card">
+            <div class="card whole-items">
                 <span class="card-header text-center" style="font-size: 14pt">Whole Items</span>
                 <div class="card-body">
                     <div class="row mb-4">
@@ -50,26 +50,56 @@
                             <p class="text-center text-light">$5.00 each</p>
                         </div>
                     </div>
-
-
-
                 </div>
             </div>
         </div>
         <div class="col-sm-12 col-md-12 col-lg-4">
-            <div class="card menu-card">
+            <div class="card sand-card">
                 <span class="card-header text-center" style="font-size: 14pt">Sandwiches</span>
-                <div class="card-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
-                    reprehenderit
-                    iste mollitia, dolore cumque dignissimos quas nemo tempora autem assumenda. Culpa.</div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12 col-lg-6">
+                            <div class="font-weight-bold text-center">
+                                Pulled Pork Sandwich
+                            </div>
+                            <p class="text-center text-light">$6.99</p>
+                        </div>
+                        <div class="col-sm-12 col-md-12 col-lg-6">
+                            <div class="font-weight-bold text-center">
+                                Rib Sandwich
+                            </div>
+                            <p class="text-center text-light">$8.99</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="p-3 text-center">
+                <form action="{% url 'home' %}">
+                    <button type="submit" class="btn btn-primary">Home</button>
+                </form>
             </div>
         </div>
         <div class="col-sm-12 col-md-12 col-lg-4">
             <div class="card menu-card">
-                <span class="card-header text-center" style="font-size: 14pt">Sides</span>
-                <div class="card-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
-                    reprehenderit
-                    iste mollitia, dolore cumque dignissimos quas nemo tempora autem assumenda. Culpa.</div>
+                <span class="card-header text-center" style="font-size: 14pt">Plate</span>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12 col-lg-6">
+                            <div class="text-center font-weight-bold">Rib Plate</div>
+                            <p class="text-center text-light">$12.50</p>
+                        </div>
+                        <div class="col-sm-12 col-md-12 col-lg-6">
+                            <div class="text-center font-weight-bold">BBQ Plate</div>
+                            <p class="text-center text-light">$10.50</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12 col-lg-12">
+                            <div class="text-center font-weight-bold">Kid's BBQ Plate</div>
+                            <p class="text-center text-light">$7.50</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
